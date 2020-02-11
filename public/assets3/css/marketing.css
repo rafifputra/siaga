@@ -1,0 +1,293 @@
+./*card-header2 {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.card-tittle2{
+  margin-bottom: 20px;
+}
+.card-default{
+    background-color: #fff;
+}
+.card .card-header .card-body {
+    padding-top: 0;
+}
+.card .card-body {
+    padding: 20px;
+    padding-top: 20px;
+}
+.form-control2 {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.333);
+    font-family: Arial, sans-serif;
+    -webkit-appearance: none;
+    color: #2c2c2c;
+    outline: 0;
+    padding: 8px 12px;
+    width: 300px;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.form-group2 {
+    margin-bottom: 10px;
+}*/
+.page-container .page-content-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+.page-container .page-content-wrapper .page-content {
+    z-index: 10;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    min-height: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    background-color: #f0f0f0;
+    background-color: #4b5555;
+}
+
+.breadcrumb {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 15px 0;
+    margin: 0;
+    border: none;
+    text-transform: uppercase;
+  
+}
+.breadcrumb .breadcrumb-item {
+    float: left;
+    padding-left: 0px;
+}
+.breadcrumb a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    color: #fff;
+   
+}
+.breadcrumb .breadcrumb-item .create{
+    color: #febd69;
+}
+/*.input-sm, .form-horizontal .form-group-sm .form-control {
+
+    font-size: 13px;
+    min-height: 32px;
+    padding: 7px 9px;
+
+}
+.input-daterange .input-group-addon {
+
+    text-shadow: none;
+    border: 0;
+    border-color: rgba(0, 0, 0, 0.333);
+    border: 1px 0 1px 0;
+    margin: 0;
+
+}
+.input-daterange .input-group-addon {
+
+    width: auto;
+    min-width: 10px;
+    padding: 2px 2px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    vertical-align: middle;
+    background-color:  #ccccb3;
+    border: solid #ccccb3;
+    margin-left: -5px;
+    margin-right: -5px;
+
+}*/
+.input-group-text{
+  background-color: #ccccb3;
+}
+.btn {
+
+    border: 1px solid;
+    color: #fff;
+    padding: 6px 17px;
+
+}
+.btnadd{
+    color: #fff;
+    background-color: #ff9900;
+}
+.btnadd:hover{
+    color: #000;
+    background-color:#fff;
+}
+
+.btnactivity{
+    color: #fff;
+    background-color: #6d5cae;
+}
+.btnactivity:hover{
+    color: #000;
+    background-color:#fff;
+}
+
+.btn-edit{
+    color: #fff;
+    background-color: #ffd633;
+}
+.btn-edit:hover{
+     color: #000;
+    background-color:#fff;
+}
+
+.btn-delete{
+    color: #fff;
+    background-color: #ff1a1a;
+}
+.btn-delete:hover{
+    color: #000;
+    background-color:#fff;
+}
+
+.btn-save{
+    color: #fff;
+    background: #33bbff;
+}
+.btn-save:hover{
+    color: #000;
+    background-color:#fff;
+}
+
+.btn-complete {
+
+    color: #fff;
+    background-color: #48b0f7;
+}
+.btn-complete:hover {
+
+    color: #212529;
+    background-color:#0879c4;
+}
+.btn-warning3{
+
+    color: #fff;
+    background-color: #febd69;
+}
+.btn-warning3:hover{
+  
+    color: #212529;
+    background-color:#e48201;
+}
+.index-btn-container-outer {
+    min-height: 30px;
+    height: 100%;
+    position: relative;
+}
+.index-btn-container-outer .index-btn-container-inner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.table thead tr th {
+    background-color: #fff;
+    color: #626262;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    vertical-align: middle;
+}
+.table tbody tr td {
+   /* padding: 15px;*/
+    font-size: 13.5px;
+}
+.v-align-middle{
+    color: #626262;
+}
+/**********************Tambah-sales**********************************/
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 1000px;
+    padding-left: 120px;
+ /*   background:#F3F3F3;*/
+   
+}
+#page-inner {
+    width:90%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff;
+    padding:10px;
+    min-height:500px;
+}
+#btnadd{
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.label-progress{
+    height: 40px; 
+    width:358px; 
+    background-color: #10cfbd;
+}
+.label-progress2{
+    height: 40px;
+    width: 358px; 
+    background-color: #48b0f7;
+}
+.label-progress3{
+    height: 40px;
+    background-color: #3a8fc8;
+}
+.label-waiting{
+    height: 30px; 
+    width: 358px;
+    background-color: #10cfbd;
+}
+.progressbar{
+    background-color: rgba(98, 98, 98, 0.2);
+    height: 20px; 
+}
+.txtprogress{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*.float-right{
+    float: right;
+    background-color: #6d5cae;
+    color: #000;
+}*/
+/*----------------------------------*/
+.simbol{
+    color: #ff0000;
+    font-size: 18px;
+}
+.btn-link {
+    color: #000;
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+.select2-drop-active{
+    margin-top: -25px;
+}

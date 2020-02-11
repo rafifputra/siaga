@@ -1,0 +1,278 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/* =============================================================
+   Header STYLES
+ ============================================================ */
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-color: #567086;
+    line-height:28px;
+   
+}
+.set-radius-zero {
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+}
+.content-wrapper {
+    margin-top: 40px;
+    min-height:800px;
+    padding-bottom:90px;
+}
+.header-line {
+    font-weight:900;
+    padding-bottom:25px;
+    border-bottom:1px solid #eeeeee;
+    text-transform:uppercase;
+}
+.pad-botm {
+    padding-bottom:30px;
+}
+.tm-site-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: #fff;
+}
+.tm-company{
+    font-size: 14px;
+    padding-left: 0px;
+    color: #fff;
+}
+.navbar-inverse {
+    background-color: #567086;
+    border-bottom:5px solid #9170E4;
+}
+.navbar {
+    min-height: 120px;
+    margin-bottom: 0px;   
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent;
+}
+.navbar-toggle {
+    background-color: black;
+    border: 1px solid black;
+}
+.navbar-header .navbar-brand img{
+    height: 40px;
+}
+.logoutadmin {
+    padding-top: 30px;
+}
+#menu-top a {
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    padding: 25px 15px 25px 15px;
+    text-transform:uppercase;
+
+}
+#menu-top li a:hover{
+    color: #f5a623;
+}
+.menu-section {
+    background-color: #567086;
+    border-bottom:5px solid #9170E4;
+    width:100%;
+   /* padding-bottom: 2px;*/
+}
+.menu-top-active {
+    background-color:#eeeeee;
+}
+
+/* =============================================================
+   DASHBOARD STYLES
+ ============================================================ */
+
+.img-comments {
+   border: 3px double #e1e1e1;
+height: 60px;
+
+}
+
+.chat-widget-main {
+    max-height:330px;
+    overflow:auto;
+}
+
+.slide-bdr {
+   border:5px solid #9170E4
+}
+.chat-widget-left:after {
+    top: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-top-color: #F70E62;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.chat-widget-left {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #F70E62;
+    font-size:12px;
+}
+.chat-widget-right:after {
+    top: 100%;
+    right: 10%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-top-color: #5AA8CC;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.chat-widget-right {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #5AA8CC;
+    font-size:12px;
+}
+
+.chat-widget-name-left {
+   color: #808080;
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align:left;
+}
+
+    .img-left-chat {
+        border:3px double #e1e1e1;
+        float:left;
+        margin-right:30px;
+    }
+     .img-right-chat {
+        border:3px double #e1e1e1;
+        float:right;
+        margin-left:30px;
+    }
+     .chat-widget-main img-right {
+        border:3px double #e1e1e1;
+        float:left;
+    }
+.chat-widget-name-left h4 {
+    font-weight:normal;
+    font-size:11px;
+    
+}
+.chat-widget-name-left h5 {
+    font-weight:normal;
+    font-size:10px;
+}
+.chat-widget-name-right h4 {
+    font-weight:normal;
+    font-size:11px;
+}
+.chat-widget-name-right h5 {
+    font-weight:normal;
+    font-size:10px;
+}
+.chat-widget-name-right {
+    color: #808080;
+    margin-top: 40px;
+    margin-right: 60px;
+    text-align:right;
+}
+
+.recent-users-sec img {
+    max-height:80px;
+    margin:15px;
+}
+
+.back-widget-set {
+    background-color:transparent;
+}
+
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+.footer-section {
+    padding:25px 50px 25px 50px;
+    color:#000;
+    font-size:13px;
+      background-color: #f7f7f7;
+      text-align:right;
+       border-top:5px solid #9170E4;
+
+}
+
+    .footer-section a, .footer-section a:hover {
+        color:#000;
+    }
+/*----------------------CSS HORIZONTAL MENU----------------------*/
+.collapse ul {
+    list-style: none;
+    position: relative;
+    padding: 0 20px;
+
+}
+.collapse ul li:hover > ul {
+    display: block;
+}
+.collapse ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.collapse ul li a{
+    padding: 20 30px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+.collapse ul ul {
+    background: #567086;
+    border-radius: 0px;
+    padding: 100;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.collapse ul ul li {
+    float: none;
+    border-bottom: 2px solid #def4ff;
+    position: relative;
+}
+.collapse ul li:hover > ul {
+    display: block;
+}
+.collapse ul ul li a {
+    padding: 10px 40px;
+}
+.collapse ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 150px;
+}
